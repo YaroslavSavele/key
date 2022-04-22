@@ -1,0 +1,39 @@
+.container{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.btn{
+    width: 150px;
+    height: 150px;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    background-color: darkgreen;
+}
+.popup{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    width: 95px;
+    height: 50px;
+    border-radius: 5px;
+    background: url(/img/icons8-купить-64.png) no-repeat 65%;
+    background-size: 35%;
+    background-color: lightgreen;
+    font-size: 25px;
+    font-weight: normal;
+    align-items: center;
+    padding-left: 10px;
+    display: none;
+}
+.visibility{
+    display: flex;
+}
+
